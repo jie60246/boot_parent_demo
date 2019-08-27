@@ -5,10 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>maven_web</module>
-        <module>maven_springboot</module>
         <module>maven_jar</module>
-        <module>maven_springboot</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

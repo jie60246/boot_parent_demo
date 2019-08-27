@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-demo" />
-        <module name="maven_web" />
         <module name="maven_jar" />
+        <module name="springboot-demo" />
+      </profile>
+      <profile name="Annotation profile for Springboot_demo1" enabled="true">
+        <sourceOutputDir name="../../maven_springboot/Springboot_demo1/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../maven_springboot/Springboot_demo1/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="Springboot_demo1" />
       </profile>
     </annotationProcessing>
@@ -17,6 +21,7 @@
       <module name="maven_springboot" target="1.7" />
       <module name="maven_web" target="1.7" />
       <module name="springboot-demo" target="1.8" />
+      <module name="Springboot_demo1" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
